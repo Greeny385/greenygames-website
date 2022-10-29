@@ -9,6 +9,7 @@ import { NgFooterComponent } from './ng-footer/ng-footer.component';
 import { ImpressumComponent } from './impressum/impressum.component';
 import { DatenschutzComponent } from './datenschutz/datenschutz.component';
 import { StartComponent } from './start/start.component';
+import { ViewComponent } from './view/view.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { StartComponent } from './start/start.component';
     NgFooterComponent,
     ImpressumComponent,
     DatenschutzComponent,
-    StartComponent
+    StartComponent,
+    ViewComponent
   ],
   imports: [
     BrowserModule,

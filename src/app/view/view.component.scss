@@ -1,0 +1,120 @@
+::-webkit-scrollbar {
+    width: 5px;
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+    transition: all .5s;
+    background: #888;
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+#view-container {
+    height: calc(100vh - 75px);
+    width: 100vw;
+    display: flex;
+    position: relative;
+    padding-top: 75px;
+}
+
+#twitch-embed{
+    left: 0px;
+    position: relative;
+    display: inline;
+
+    width: 75%;
+}
+
+#btn-hg {
+    border-left: 1px solid hsla(0, 0%, 100%, 0.1);
+    width: 25%;
+    position: relative;
+    right: 0px;
+    height: calc(100% - 100px);
+    background-color: #18181b;
+}
+
+#btn-header {
+    height: 49px;
+    width: 100%;
+    border-bottom: 1px solid hsla(0, 0%, 100%, 0.1);
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+#btn-header p, #btn-footer p {
+    color: #dedee3;
+    font-size: 14px;
+    font-family: "Inter", "Roobert", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 600;
+    padding: 16px;
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#btn-footer {
+    background-color: #18181b;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    height: 49px;
+    width: 100%;
+    border-top: 1px solid hsla(0, 0%, 100%, 0.1);
+}
+
+#button-grid {
+    scroll-behavior: smooth;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    scroll-snap-type: proximity;
+    background-color: inherit;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    align-content: flex-start;
+    flex-wrap: wrap;
+    height: 100%
+
+}
+
+#button-grid button {
+    transition: all .5s;
+    display: flex;
+
+    margin: 10px;
+    border-radius: 25px;
+    background-color: #080;
+    border: 1px solid lime;
+    width: 125px;
+    aspect-ratio: 1 / 1;
+}
+
+#button-grid button:hover {
+    background-color: lime;
+    border: 1px solid #080;
+    color: lightgreen;
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+#button-grid button p {
+    color: lightgreen;
+    font-family: Oxanium;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    align-self: center;
+    font-size: 1rem;
+}
