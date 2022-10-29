@@ -1,0 +1,34 @@
+$priColor: #222222;
+$accColor: #00911b;
+
+.toolbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: $priColor;
+    height: 75px;
+    position: fixed;
+    width: 100vw;
+    top: 0;
+    left: 0;
+    z-index: +1;
+}
+
+.toolbar > span {
+    display: inline;
+    font-weight: 300;
+    font-size: 25px;
+    margin: 10px;
+    color: white;
+    font-family: Oxanium;
+    transition: all .5s;
+}
+
+.toolbar > span:hover {
+    color: $accColor;
+}
+
+img {
+    max-width: 50px;
+    aspect-ratio: 1 / 1;
+}

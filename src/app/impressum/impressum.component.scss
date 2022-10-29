@@ -1,0 +1,40 @@
+$priColor: #222222;
+$accColor: #00911b;
+
+.impressum {
+    height: 100vh;
+    color: white;
+    display: flex;
+    position: relative;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.impressum p, .impressum h1, .impressum h6 {
+    margin: 0px;
+}
+
+.impressum a {
+    transition: all .5s;
+    text-decoration: none;
+    color: white;
+}
+
+.impressum a:hover, .impressum a:active {
+    color: $accColor;
+} 
+
+.impressum h1 {
+    font-size: 28px;
+    text-decoration: underline $accColor;
+}
+
+.impressum h6 {
+    margin-top: 12px;
+    margin-bottom: 12px;
+    font-size: 22px;
+    text-decoration: double underline $accColor;
+}
+

@@ -1,0 +1,21 @@
+$priColor: #222222;
+$accColor: #00911b;
+
+.datenschutz {
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-items: center;
+    color: white;
+    flex-direction: column;
+    margin: 100px 15%;
+}
+
+.datenschutz a {
+    color: $accColor;
+    text-decoration: none;
+}
+
+.datenschutz strong {
+    font-weight: 500;
+}

@@ -1,0 +1,41 @@
+$priColor: #222222;
+$accColor: #00911b;
+
+.footer {
+    height: calc(100vh - 75px);
+    width: 100vw;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    background-color: #222222;
+    z-index: 0;
+    background-image: url('./../../assets/main-img/GreenyBySturmi2.png');
+    background-size: 50vh;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+.footer div {
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 25vh;
+}
+
+.footer div a button {
+    position: relative;
+    padding: 20px 25px;
+    border-radius: 20px;
+    background-color: #005c11;
+    color: white;
+    border: $accColor;
+    transition: all .5s;
+    transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.footer div a button:hover {
+    transform: scale(1.3);
+
+}
